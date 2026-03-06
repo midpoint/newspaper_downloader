@@ -1,0 +1,18 @@
+[project]
+name = "newspaper-downloader"
+version = "0.1.0"
+description = "从 JOJO看报 下载报纸杂志并转换为PDF"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "playwright>=1.58.0",
+    "requests>=2.32.0",
+    "img2pdf>=0.6.0",
+]
+
+[project.optional-dependencies]
+dev = []
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
