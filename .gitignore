@@ -39,3 +39,10 @@ Thumbs.db
 # Project specific
 *.pdf
 newspaper_downloader.egg-info/
+
+# Local config files (do not commit)
+m25.sh
+main.py
+
+# Claude Code
+.claude/
